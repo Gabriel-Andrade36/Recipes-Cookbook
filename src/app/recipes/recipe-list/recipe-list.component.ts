@@ -15,9 +15,20 @@ export class RecipeListComponent implements OnInit {
     ),
     new Recipe(
       'Outro Bolo',
-      'Outro bolo',
+      'Um outro bolo',
       'https://t2.rg.ltmcdn.com/pt/posts/0/7/7/bolo_de_chocolate_simples_e_fofo_4770_orig.jpg'
     ),
+    new Recipe(
+      'Pão',
+      'Um pão',
+      'https://fermais.com.br/site20/wp-content/uploads/2019/09/melhor-pao-frances-dicas-scaled.jpg'
+    ),
+    new Recipe(
+      'Outro Pão',
+      'Um outro pão',
+      'https://naminhapanela.com/wp-content/uploads/2020/07/P%C3%83O-FRANC%C3%8AS-3.jpg'
+    ),
+
   ];
 
   constructor() {}
